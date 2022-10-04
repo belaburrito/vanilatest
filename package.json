@@ -1,0 +1,16 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "Take home test for Canonical",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass -w --load-path=node_modules src:dist --style=compressed"
+  },
+  "author": "Bela Garrido Kochkarova",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0",
+    "vanilla-framework": "^3.7.1"
+  }
+}
